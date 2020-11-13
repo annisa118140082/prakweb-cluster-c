@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+$mycolour : rgb(215, 160, 238);
+$napcolour : rgb(62, 24, 78);
+$bgcolour : rgb(137, 58, 153);
+$number1 : 55px;
+$align1 : center;
+
+.navbar{
+    ul{
+        margin: 0;
+        padding: 5px;
+        overflow: hidden;
+        background-color: $napcolour;
+        position: sticky;
+    }
+    li {
+        margin-right: $number1;
+        margin-left: $number1;
+        display: inline;
+    }
+    li a {
+        color: white;
+        text-align: $align1;
+        padding: 14px $number1;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    li a:hover {
+        background-color: $mycolour;
+        font-weight: bold;
+    }
+}
+
+.jumbotron{
+    font-size: 20px;
+    padding: 60px;
+    background-color: $bgcolour;
+    h1{
+        text-align: center;
+        color: white;
+        margin-bottom: 70px;
+    }
+}
+.card {
+    box-shadow: 8px 4px 8px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+ }
+
+ * {
+    box-sizing: border-box;
+    overflow: auto;
+  }
+
+  .sidebar {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+    padding-bottom: 20px;
+  }
+
+  .footer {
+    padding: 20px;
+    color: white;
+    background-color: $bgcolour;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+ }
+
+ .content {
+    float: left;
+    width: 75%;
+    padding-right: 20px;
+    h2{
+        color: rgb(72, 42, 83);
+    }
+ }
+
+ @media screen and (max-width: 1000px) {
+    .content,
+    .sidebar {
+        width: 100%;
+        padding: 0;
+    }
+ }
+
+ .flex {
+    display: flex;
+}
+
+.grid {
+    padding: 0 10px;
+}
+
+.bulat {
+    justify-content: space-around;
+}
+
+.satu {
+    background-color: rgb(213, 172, 230);
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+}
+
+.dua {
+    background-color: rgb(199, 140, 233);
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+}
+
+
+.tiga {
+    background-color: rgb(219, 102, 255);
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+}

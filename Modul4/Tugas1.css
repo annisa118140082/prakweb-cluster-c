@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
+.navbar ul {
+  margin: 0;
+  padding: 5px;
+  overflow: hidden;
+  background-color: #3e184e;
+  position: sticky;
+}
+.navbar li {
+  margin-right: 55px;
+  margin-left: 55px;
+  display: inline;
+}
+.navbar li a {
+  color: white;
+  text-align: center;
+  padding: 14px 55px;
+  font-family: "Quicksand", sans-serif;
+}
+.navbar li a:hover {
+  background-color: #d7a0ee;
+  font-weight: bold;
+}
+
+.jumbotron {
+  font-size: 20px;
+  padding: 60px;
+  background-color: #893a99;
+}
+.jumbotron h1 {
+  text-align: center;
+  color: white;
+  margin-bottom: 70px;
+}
+
+.card {
+  box-shadow: 8px 4px 8px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+* {
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+.sidebar {
+  float: right;
+  width: 25%;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.footer {
+  padding: 20px;
+  color: white;
+  background-color: #893a99;
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+}
+
+.content {
+  float: left;
+  width: 75%;
+  padding-right: 20px;
+}
+.content h2 {
+  color: #482a53;
+}
+
+@media screen and (max-width: 1000px) {
+  .content,
+.sidebar {
+    width: 100%;
+    padding: 0;
+  }
+}
+.flex {
+  display: flex;
+}
+
+.grid {
+  padding: 0 10px;
+}
+
+.bulat {
+  justify-content: space-around;
+}
+
+.satu {
+  background-color: #d5ace6;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+}
+
+.dua {
+  background-color: #c78ce9;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+}
+
+.tiga {
+  background-color: #db66ff;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+}
+
+/*# sourceMappingURL=Tugas1.css.map */
