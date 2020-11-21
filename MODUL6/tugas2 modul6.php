@@ -45,4 +45,4 @@
     <p style="color:<?php echo $warna ?>";><?php echo $nama?></p>
     <p>Harga : <?php echo $harga ?></p>
 </body>
-</html>
+</html> 
