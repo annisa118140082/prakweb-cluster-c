@@ -1,0 +1,11 @@
+{
+    "biodata" : {
+        "name": "Icha",
+        "gender": "Female",
+        "age": 20,
+        "sosialMedia": {
+            "github": "annisa118140082",
+            "instagram": "annisadwiatika"
+        }
+    }
+}
