@@ -12,7 +12,6 @@ require("koneksi.php");
         html,
         body {
             min-height: 100%;
-            background-image: url("https://wallpaperset.com/w/full/9/6/a/517453.jpg");
         }
 
         body,
@@ -51,7 +50,7 @@ require("koneksi.php");
             width: 40%;
             padding: 20px;
             border-radius: 6px;
-            background-color: rgba(1, 4, 28, 0.8);
+            background-color: #93c4bc;
             box-shadow: 0 0 30px 0 white;
         }
 
@@ -100,7 +99,7 @@ require("koneksi.php");
 
         .banner::after {
             content: "";
-            background-color: rgba(0, 0, 0, 0.4);
+            background-color: #93c4bc;
             position: absolute;
             width: 100%;
             height: 100%;
