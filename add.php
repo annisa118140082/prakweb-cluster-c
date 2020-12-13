@@ -8,6 +8,6 @@ $prodi = $_POST["prodi"];
 
 $conn = koneksi();
 
-$query = "INSERT INTO mahasiswa VALUES('$nim', '$nama', '$angkatan', '$prodi'";
+$query = "INSERT INTO mahasiswa VALUES('$nama', '$nim', '$angkatan', '$prodi'";
 
 $hasil = mysqli_query($conn, $query);

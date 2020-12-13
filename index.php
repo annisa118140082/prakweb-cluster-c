@@ -211,7 +211,7 @@ require("koneksi.php");
                 <p>Program Studi</p>
                 <select name="prodi" required>
                     <option value="1">Teknik Informatika</option>
-                    <option value="2">Teknik Sipil</option>
+                    <option value="2">Teknik Elektro</option>
                     <option value="3">Matematika</option>
                     <option value="4">Kedokteran</option>
                 </select>
